@@ -221,4 +221,7 @@ figure {
   width: 90%;
   float: right;
   }
+  .movie-overview {
+  display:block;
+  }
 }
