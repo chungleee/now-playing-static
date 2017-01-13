@@ -217,4 +217,8 @@ figure {
   .site-logo {
     right: 45rem;
   }
+  main {
+  width: 90%;
+  float: right;
+  }
 }
