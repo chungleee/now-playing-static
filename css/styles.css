@@ -195,3 +195,26 @@ figure {
 .about > p {
   margin: 0;
 }
+
+@media (min-width: 768px) {
+  .site-nav {
+    top: 0;
+    width: 10%;
+    height: 100%;
+    z-index: 99;
+    }
+  .site-nav-item {
+    float: none;
+    width: 100%;
+  }
+  .site-nav-list {
+    padding-top: 100px;
+    width: 100%;
+  }
+  .site-logo-image {
+    width: 60px;
+  }
+  .site-logo {
+    right: 45rem;
+  }
+}
