@@ -224,4 +224,28 @@ figure {
   .movie-overview {
   display:block;
   }
+
+  nav.footer-nav {
+    width: 49%;
+  }
+
+  section.about {
+    width: 49%;
+    display: inline-block;
+  }
+}
+
+@media (min-width: 992px) {
+  article.movie:nth-child(n+2) {
+    float: left;
+    width: 33.3333%;
+    overflow: hidden;
+  }
+
+  p.movie-overview {
+    display: none;
+  }
+  p:first-child {
+    display: block;
+  }
 }
