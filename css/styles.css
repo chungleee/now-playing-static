@@ -233,19 +233,52 @@ figure {
     width: 49%;
     display: inline-block;
   }
+  nav.footer-nav {
+    width: 50%;
+    float: left;
+}
+
+  section.about {
+    width: 50%;
+    float: left;
+    background: black;
+    color: white;
+  }
+
+  footer.site-footer {
+    overflow: hidden;
+    background: black;
+    color: white;
+    width: 90%;
+    float: right;
+  }
 }
 
 @media (min-width: 992px) {
-  article.movie:nth-child(n+2) {
+  article {
     float: left;
     width: 33.3333%;
     overflow: hidden;
   }
 
-  p.movie-overview {
-    display: none;
+  .movie:nth-child(n+2) .movie-overview {
+      display: none;
   }
-  p:first-child {
-    display: block;
+
+  .movie:nth-child(n+2) .movie-backdrop {
+      display: none;
   }
+
+    .movie {
+    width: 100%;
+    }
+
+    .movie:nth-child(n+2) .movie-poster {
+        display: block;
+
+    }
+
+    .movie:nth-child(n+2) {
+        width: 33.3333%;
+    }
 }
